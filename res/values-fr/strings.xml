@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Layouts strings -->
+	<string name="Authenticating">Authentification &#8230;</string>
+	<string name="AuthenticationFailed">Échec de l\'authentication</string>
+	<string name="CantConnect">Désolé. Connexion impossible</string>
+	<string name="ChangeClient">Se connecter à une autre machine</string>
+	<string name="Connect">Connection</string>
+	<string name="Connected">Vous êtes maintenant connecté</string>
+	<string name="Connecting">Connection &#8230;</string>
+	<string name="Disconnect">Déconnecter</string>
+	<string name="Disconnected">Vous avez été déconnecté</string>
+	<string name="EnterIPAddress">Veuillez entrer l\'adresse IP de la machine à laquelle vous souhaitez vous connecter</string>
+	<string name="Error">Erreur</string>
+	<string name="Help">Aide</string>
+	<string name="ManualConnection">Connexion manuelle</string>
+	<string name="NoClientFound">Aucune machine trouvée</string>
+	<string name="NotValidIPAddress">n\'est pas une adresse IP valide</string>
+	<string name="PleaseWait">Patientez &#8230;</string>
+	<string name="QueueList">File de lecture</string>
+	<string name="Scheduler">Agenda</string>
+	<string name="SearchClient">Rechercher une machine</string>
+	<string name="SearchingForClients">Recherche de machines &#8230;</string>
+	<string name="SelectHost">Veuillez sélectionner une machine</string>
+	<string name="WaitAuthenticating">Veuillez patienter pendant l\'authentification &#8230;</string>
+	<string name="WaitConnecting">Veuillez patienter pendant la connexion &#8230;</string>
+	<string name="WiFiCantConnect">Désolé. Connection impossible.</string>
+	<string name="WiFiDisabled">Votre connection WiFi semble être inactive.</string>
+	
+	<!-- QueueList strings -->
+	<string name="Artist">Artiste</string>
+	<string name="Album">Album</string>
+	<string name="AlbumArtist">Artiste de l\'album</string>
+	<string name="Duration">Durée</string>
+	<string name="Genre">Genre</string>
+	<string name="Title">Titre</string>
+	<string name="Track">Numéro de piste</string>
+	
+	<string name="CurrentlyPlaying">Lecture en cours :</string>
+	<string name="Informations">Informations</string>
+	<string name="NoPlayingItem">Aucun morceau en cours de lecture</string>
+	<string name="UpdatingList">Mise à jour de la liste &#8230;</string>
+	
+	<string-array name="WeekDays">
+		<item name="0">Lundi</item>
+		<item name="1">Mardi</item>
+		<item name="2">Mercredi</item>
+		<item name="3">Jeudi</item>
+		<item name="4">Vendredi</item>
+		<item name="5">Samedi</item>
+		<item name="6">Dimanche</item>
+	</string-array>
+	
+	<string name="Logo">Logo</string>
+	<string name="Move">Déplacer</string>
+	<string name="PlayPause">Lecture / Pause</string>
+	<string name="Next">Suivante</string>
+</resources>

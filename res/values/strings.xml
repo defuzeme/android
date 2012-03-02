@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Application name -->
+	<string name="Application">defuze.me</string>
+	
+	<!-- Shared preferences strings -->
+	<string name="authToken">AuthenticationToken</string>
+	<string name="hostName">HostName</string>
+	
+	<!-- Layouts strings -->
+	<string name="Authenticating">Authenticating &#8230;</string>
+	<string name="AuthenticationFailed">Authentication failed</string>
+	<string name="CantConnect">Sorry. Can\'t connect</string>
+	<string name="ChangeClient">Connect to another machine</string>
+	<string name="Connect">Connect</string>
+	<string name="Connected">You are now connected</string>
+	<string name="Connecting">Connecting &#8230;</string>
+	<string name="Disconnect">Disconnect</string>
+	<string name="Disconnected">You have been disconnected</string>
+	<string name="EnterIPAddress">Please enter the IP address of the machine you want to connect to</string>
+	<string name="Error">Error</string>
+	<string name="Help">Help</string>
+	<string name="ManualConnection">Manual connection</string>
+	<string name="NoClientFound">No machine found</string>
+	<string name="NotValidIPAddress">is not a valid IP address</string>
+	<string name="PleaseWait">Please wait</string>
+	<string name="QueueList">Queue list</string>
+	<string name="Scheduler">Scheduler</string>
+	<string name="SearchClient">Search client</string>
+	<string name="SearchingForClients">Searching for clients &#8230;</string>
+	<string name="SelectHost">Please select a machine</string>
+	<string name="WaitAuthenticating">Please wait while authenticating &#8230;</string>
+	<string name="WaitConnecting">Please wait while connecting &#8230;</string>
+	<string name="WiFiCantConnect">Sorry. Can\'t connect.</string>
+	<string name="WiFiDisabled">Your WiFi connection seems to be disabled.</string>
+	
+	<!-- QueueList strings -->
+	<string name="Artist">Artist</string>
+	<string name="Album">Album</string>
+	<string name="AlbumArtist">Album artist</string>
+	<string name="Duration">Duration</string>
+	<string name="Genre">Genre</string>
+	<string name="Title">Title</string>
+	<string name="Track">Track number</string>
+	
+	<string name="CurrentlyPlaying">Currently playing :</string>
+	<string name="Informations">Informations</string>
+	<string name="NoPlayingItem">No tracks playing</string>
+	<string name="UpdatingList">Please wait. Updating list &#8230;</string>
+	
+	<string name="FollowingTrack">Following track :</string>
+	<string name="NoItem">No item</string>
+	
+	<string-array name="WeekDays">
+		<item name="0">Monday</item>
+		<item name="1">Tuesday</item>
+		<item name="2">Wednesday</item>
+		<item name="3">Thursday</item>
+		<item name="4">Friday</item>
+		<item name="5">Saturday</item>
+		<item name="6">Sunday</item>
+	</string-array>
+	
+	<string name="Logo">Logo</string>
+	<string name="Move">Move</string>
+	<string name="PlayPause">Play / Pause</string>
+	<string name="Next">Next</string>
+	
+</resources>

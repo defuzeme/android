@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				
+	<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+				    android:id="@+id/background"
+				    android:orientation="vertical"
+					android:gravity="center"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:background="@drawable/background" >
+	    
+	    <ImageView	android:src="@drawable/logo"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:contentDescription="@string/Logo"
+					android:id="@+id/logo" />
+		
+	    <Button	android:width="280px"
+				android:id="@+id/connect"
+				android:text="@string/Connect"
+				android:layout_marginTop="60px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		
+	    <Button	android:width="280px"
+				android:id="@+id/queueList"
+				android:text="@string/QueueList"
+				android:layout_marginTop="40px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		
+	    <Button	android:width="280px"
+				android:id="@+id/scheduler"
+				android:text="@string/Scheduler"
+				android:layout_marginTop="30px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+	    
+	</LinearLayout>
+				    
+    <ImageView	android:id="@+id/version"
+    			android:src="@drawable/version"
+		    	android:layout_x="0px"
+		    	android:layout_y="0px"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content" />
+	
+</RelativeLayout>
+

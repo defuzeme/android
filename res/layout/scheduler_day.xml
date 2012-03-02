@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+				android:paddingTop="10px"
+				android:paddingLeft="16px"
+				android:paddingRight="16px"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" >
+    
+    <TableLayout	android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/schedulerLayout" >
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="09:00 - 10:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Trio / Musette"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="10:00 - 11:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Hard Tech"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="11:00 - 12:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Jazz"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="12:00 - 13:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Informations / Pubs / etc.Bla bla bla ...\nEst-ce que ça fonctionne ?"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="13:00 - 14:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Electro / Trans"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+		    android:shrinkColumns="1"
+		    android:stretchColumns="1"
+			android:layout_marginBottom="10dp">
+			
+			<TextView	android:id="@+id/scheduler_time"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:layout_gravity="top|left"
+				android:textSize="14dp"
+				android:text="14:00 - 15:00" />
+	
+			<TextView	android:id="@+id/scheduler_description"
+				android:textColor="#FFFFFF"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="20dp"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:text="Classique / Opéra"
+				android:background="@drawable/scheduler_task" />
+
+        </TableRow>
+        
+    </TableLayout>
+    
+</LinearLayout>

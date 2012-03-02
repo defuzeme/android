@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_alignBottom="@+id/band_top" >
+
+	<TableLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/currentPlay"
+					android:layout_width="fill_parent"
+					android:layout_height="70dp"
+				    android:shrinkColumns="1"
+				    android:stretchColumns="1"
+					android:background="@drawable/play_queue_current_item">
+
+		<TableRow	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="match_parent">
+			<TextView	android:id="@+id/currentSound"
+						android:layout_width="match_parent"
+						android:layout_height="20dp"
+						android:layout_marginTop="4dp"
+						android:layout_gravity="center_vertical|left"
+						android:textColor="#FFFFFF"
+						android:textStyle="bold"
+						android:paddingLeft="14dp"
+						android:text="@string/CurrentlyPlaying" />
+		
+			<TextView	android:id="@+id/followingSound"
+						android:layout_width="match_parent"
+						android:layout_height="20dp"
+						android:layout_marginTop="4dp"
+						android:layout_gravity="center_vertical|right"
+						android:textColor="#FFFFFF"
+						android:textStyle="bold"
+						android:paddingRight="14dp"
+						android:text="@string/FollowingTrack" />
+		</TableRow>
+		
+		<TableRow	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="match_parent">
+			<TextView	android:id="@+id/currentSoundTitle"
+						android:paddingLeft="14dp"
+						android:layout_gravity="center_vertical|left"
+						android:text="@string/NoPlayingItem"
+						android:textColor="#222222"
+						android:layout_height="20dp"
+						android:layout_width="match_parent" />
+			<TextView	android:id="@+id/followingSoundTitle"
+						android:paddingRight="14dp"
+						android:layout_gravity="center_vertical|right"
+						android:text="@string/NoItem"
+						android:textColor="#222222"
+						android:layout_height="20dp"
+						android:layout_width="match_parent" />
+		</TableRow>
+		
+		<TableRow	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="match_parent">
+			<TextView	android:id="@+id/currentSoundTime"
+						android:layout_width="match_parent"
+						android:layout_height="20dp"
+						android:layout_gravity="center_vertical|left"
+						android:textSize="10dp"
+						android:textColor="#222222"
+						android:paddingLeft="14dp"
+						android:text="" />
+			<TextView	android:id="@+id/followingSoundTime"
+						android:layout_width="match_parent"
+						android:layout_height="20dp"
+						android:layout_gravity="center_vertical|right"
+						android:textSize="10dp"
+						android:textColor="#222222"
+						android:paddingRight="14dp"
+						android:text="" />
+		</TableRow>
+	</TableLayout>
+
+	<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/playQueueList"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="71dp"
+					android:layout_marginBottom="43dp"
+					android:background="#2D2D2D"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+		<com.defuzeme.playqueue.DnDList	android:id="@+id/android:list"
+									android:layout_marginLeft="0.5dp"
+									android:layout_marginRight="0.5dp"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent" />
+	</LinearLayout>
+
+	<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_alignParentBottom="true"
+					android:id="@+id/commands"
+					android:layout_width="fill_parent"
+					android:layout_height="42dp"
+					android:background="@drawable/background_commands"
+					android:orientation="horizontal">
+		<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_width="fill_parent"
+						android:layout_height="1dp"
+					  	android:background="#777777" />
+		<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+						android:id="@+id/commandMenu"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:orientation="horizontal"
+						android:gravity="center" >
+						<ImageView	android:id="@+id/playPauseButton"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="16dp"
+									android:layout_marginRight="16dp"
+						    		android:contentDescription="@string/PlayPause"
+									android:src="@android:drawable/ic_media_play">
+						</ImageView>
+						<ImageView	android:id="@+id/nextButton"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="16dp"
+									android:layout_marginRight="16dp"
+						    		android:contentDescription="@string/Next"
+									android:src="@android:drawable/ic_media_next">
+						</ImageView>
+		</LinearLayout>
+	</RelativeLayout>
+	
+</RelativeLayout>
