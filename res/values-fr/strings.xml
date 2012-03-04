@@ -36,6 +36,7 @@
 	<string name="Genre">Genre</string>
 	<string name="Title">Titre</string>
 	<string name="Track">Numéro de piste</string>
+	<string name="QueueBreak">Coupure</string>
 	
 	<string name="CurrentlyPlaying">Lecture en cours :</string>
 	<string name="Informations">Informations</string>

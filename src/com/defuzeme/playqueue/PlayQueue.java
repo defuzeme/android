@@ -1,3 +1,19 @@
+/*
+ * Copyright (C) 2010 Eric Harlow
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.defuzeme.playqueue;
 
 import java.util.ArrayList;
@@ -38,10 +54,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
-
-/**
- * @author François Gaillard
- */
 
 @SuppressWarnings("unused")
 public class PlayQueue extends ListActivity {
@@ -186,6 +198,9 @@ public class PlayQueue extends ListActivity {
     			
     		if (DefuzeMe._queueTracks.get(0).data.content.duration != null)
     			currentTime.setText(PlayQueue.Tools.secondsToTimeString(DefuzeMe._queueTracks.get(0).data.content.duration));
+    		else if ((DefuzeMe._queueTracks.get(0).data.content.title == null)
+            		&& (DefuzeMe._queueTracks.get(0).data.content.artist != null))
+    			currentTime.setText(PlayQueue.Tools.secondsToTimeString(0));
     	}
     }
     
@@ -320,7 +335,7 @@ public class PlayQueue extends ListActivity {
     	String	content				= null;
     	final StreamObject object	= DefuzeMe._queueTracks.get(position + 1);
 
-    	if (object != null) {
+    	if ((object != null) && (object.data.content.title != null)) {
 	    	content	= new String(this.getString(string.Title) + " : " + object.data.content.title + "\r\n");
 	    	content += this.getString(string.Artist) + " : " + object.data.content.artist + "\r\n";
 	    	content += this.getString(string.Album) + " : " + object.data.content.album + "\r\n";

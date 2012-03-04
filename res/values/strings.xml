@@ -42,6 +42,7 @@
 	<string name="Genre">Genre</string>
 	<string name="Title">Title</string>
 	<string name="Track">Track number</string>
+	<string name="QueueBreak">Break</string>
 	
 	<string name="CurrentlyPlaying">Currently playing :</string>
 	<string name="Informations">Informations</string>
